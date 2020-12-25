@@ -8,10 +8,8 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  /* !WARNING: Display flex will cause an error! */
+  overflow: hidden;
 }
 
 #moveElement {
